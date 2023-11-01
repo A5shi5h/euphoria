@@ -1,0 +1,287 @@
+body
+{
+    background-color: black;
+    margin:0;
+    padding: 0;
+}
+.top
+{
+    position: relative;
+    height: 250px;
+    width:100%;
+    background-image: url("./images/logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top-text
+{
+    text-align: center;
+    -webkit-text-fill-color: white;
+    
+}
+.mid
+{
+    position: relative;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    height: auto;
+    width:100%;
+}
+.mid-welcome
+{
+    text-align: center;
+    -webkit-text-fill-color: #fff;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: auto;
+    border: 2px solid #E5D54A;
+}
+.welcome-content
+{
+    font-family: 'Indie Flower', cursive;;
+    font-size: large;
+}
+
+.mySlides 
+{
+    display: none;
+}
+.ambiance-grid
+{
+    height: auto;
+    width: 100%;
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 1px;
+    margin-top: 44px;
+}
+.ambiance-grid img
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.ambiance-photos-button
+{
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+.about
+{
+    -webkit-text-fill-color: #000000;
+    height: auto;
+    width:100%;
+    background-color: #E5D54A;
+    border: 2px solid #E5D54A;
+}
+.about-content
+{
+   margin-top: 50px;
+}
+.about-text
+{
+  text-align: center;
+  font-family: "Trirong", serif;
+  
+}
+.owner
+{
+    position: relative;
+    height: auto;
+    width: 100%;
+    -webkit-text-fill-color: white;
+    margin-top: 90px;
+    max-width: 100%;
+    margin: 0 auto; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.owner-name
+{
+    text-align: center;
+    word-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 40px;
+}
+.owner img                                                
+{
+    border-radius: 50%;
+    margin-top: 10px;  
+    max-width: 100%; 
+    height: auto; 
+}
+.owner-socials
+{
+    height: auto;
+    margin-left: 4px;
+    margin-top: -50px;
+    background-color: #2F2D2D;
+    border-bottom: 2px solid #E5D54A;
+}
+.owner-social-text
+{
+    padding-top: 20px;
+    font-family: monospace, Times, serif;
+    font-size: 20px;
+}
+.location-button
+{
+    -webkit-text-fill-color: aliceblue;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:black;
+    background: black;
+    border-color: white;
+    margin-bottom: 30px;
+  
+}
+.feedbacks
+{
+    height: auto;
+    max-width: 100%;
+    background-color: black;
+    text-align: center;
+    -webkit-text-fill-color: #fff;
+    border-radius: 5px;
+}
+.feedback-grid 
+{
+    height: auto;
+    width: 100%;
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 1px;
+    margin-top: 44px;
+}
+.feedback-grid img 
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.feedback-button
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    -webkit-text-fill-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.live-shows
+{
+    height: 500px;
+    width: 100%;
+    background-image: url("./images/show.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+}
+.live-shows-content
+{
+    -webkit-text-fill-color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 190px;
+
+}
+.live-show-button
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.bottom
+{
+    text-align: center;
+    -webkit-text-fill-color: white;
+    height: 200px;
+    width: 100%;
+    background-color: #2F2D2D;
+    padding: 1px;
+    border-top: 1px solid white;
+}
+a
+{
+  text-decoration: none;
+  -webkit-text-fill-color: #fff;
+}
+.bottom-text
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.fa
+ {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+.fa:hover 
+{
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: black;
+    color: white;
+  }
+.fa-instagram 
+{
+    background: black;
+    color: white;
+}
+.fa-google 
+{
+    background: black;
+    color: white;
+}
+.euphoria-socials
+{
+    margin-left: 10px;
+    margin-top: -40px;
+}
+.bottom-text
+{
+    font-family: "Sofia", sans-serif;
+    margin-left: 10px;
+}
+@media only screen and(max-width: 600px)
+{
+    .mid-right
+    {
+       width:100%;
+    }
+
+}
