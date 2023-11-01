@@ -369,3 +369,15 @@ a
     }
 
 }
+@media (max-width: 768px) {
+    .about-text ,.owner-info{
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query for screens smaller than 480px */
+  @media (max-width: 480px) {
+    .about-text ,.owner-info{
+      font-size: 12px;
+    }
+  }
